@@ -1,0 +1,59 @@
+/* 초기화 */
+* {margin: 0; padding: 0;}
+
+/* wrap */
+#wrap {width: 1200px;}
+
+/* header */
+.header {	display: flex; margin: 10px; width: 80%; height: 100px; margin-right: auto;margin-left: auto; }
+.header img {width: 90px; height: 90px; margin: 10px;}
+.header .header_container {width: 80%; margin-top: 10px;}
+.header .header_container .header_nav {display: flex;	justify-content: flex-end; height: 20%;}
+.header .header_container .header_nav div {font-size: 3px; border-bottom: 1px solid #777; margin-right: 10px; color: #777; padding-top: 3px;}
+.header .header_container .search_container {display: flex; height: 60%;}
+.header .header_container .search_container .search {width: 75%; height: 100%; display: flex; margin-left: 7%; }
+.header .header_container .search_container .search .input {width: 70%; height: 45px; border-color: #ff8000; border-width: 5px; 
+	border-style: solid;}
+.header .header_container .search_container .search .search_btn {width: 20%; height: 55px; border: none; background-color: #ff8000;}
+
+/* nav */
+.nav {border-top: 5px double #fc0;border-bottom: 5px double #fc0; display: flex; height: 15px; padding: 1% 0 1% 10%;}
+.nav div {margin-right: 5px; font-size: 7px; color: #777;}
+.nav :nth-child(1) {font-size: 10px; font-weight: bold; color: #000;}
+
+/* main */
+.main {display: flex;margin-right: auto;margin-left: auto;width: 80%;}
+
+/* section */
+.main .section {width: 60%; margin: 10px;}
+.main .section img {width: 100%;}
+.main .section .boot {background-color: #fc0; font-weight: bold; padding: 2px; font-size: 15px; padding-left: 5px;}
+.main .section .boot_container {display: flex; overflow: hidden;  flex-wrap: wrap; justify-content: space-evenly; align-items: center; margin: 5px;}
+.main .section .boot_container .boot_item {width: 31%; height: 30px; background-color: #ffdfbf; text-align: center; font-size: 12px; margin: 2px; padding-top: 11px; font-weight: bold;}
+
+.main .section .track {background-color: #fc0; font-weight: bold; padding: 2px; font-size: 15px; padding-left: 5px;}
+.main .section .track_container {display: flex;}
+.main .section .track_container .track_item_containter {border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; width: 30%; padding: 10px; text-align: center; margin-top: 10px;}
+.main .section .track_container .track_item_containter img {width: 70%; margin: 30px 0;}
+.main .section .track_container .track_item_containter div {font-size: 12px; font-weight: bold; text-align: left;}
+
+
+/* aside */
+.main .aside {width: 40%; margin-top: 10px;}
+.main .aside .login_container {width: 90%; margin: 0 auto; margin-top: 15px; background-color: #f0f0f0; padding: 8px;}
+.main .aside .login_container form {display: flex; margin: 10px; flex-wrap: wrap; position: relative; margin-top: 15px;
+	 background-color: #ffdcb9; padding: 5px;}
+.main .aside .login_container form .id_form  {display: flex; width: 75%; padding-bottom: 10px;}
+.main .aside .login_container form .id_form div {font-weight: bold; margin-right: 10px; width: 35px; padding-left: 10px;}
+.main .aside .login_container form .id_form input {width: 170px; border: none;}
+.main .aside .login_container form .pw_form {display: flex; width: 75%;}
+.main .aside .login_container form .pw_form div {font-weight: bold; margin-right: 10px; width: 35px; padding-left: 10px;}
+.main .aside .login_container form .pw_form input {width: 170px; border: none;}
+.main .aside .login_container form .button {width: 19%; position: absolute; top: 5px; right: 5px; height: 85%; border: none; 
+	background-color: #ff952b; color: #fff;}
+.main .aside .signup {margin-top: 12px; width: 100%; padding: 7px 0; border: none; background-color: #ff8000; color: #fff;}
+
+.main .aside .SBC_logo {width: 100%; padding: 7px;}
+.main .aside .logo_conatiner {width: 100%; display: flex; flex-wrap: wrap;}
+.main .aside .logo_conatiner div {background-color: #fc0; font-weight: bold; padding: 2px; font-size: 15px; padding-left: 5px; width: 100%;}
+.main .aside .logo_conatiner .logo {width: 40%; padding: 2%; margin: 0 auto;}
