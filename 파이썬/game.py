@@ -1,8 +1,4 @@
 import random
-from re import X
-import time
-from tkinter import Y
-from tracemalloc import stop
 
 Mapsize = int(input("맵 크기를 입력해주세요 : "))
 Bombsize= int(input("폭탄 갯수를 입력해주세요 : "))
@@ -37,68 +33,92 @@ def Mapmake(ms,bs):
 Mapmake(Mapsize,Bombsize)
 print('========== 게임을 시작합니다 ==========')
 
-#출력
-while True:
-    for i in range(Mapsize):
-        for k in range(Mapsize):
-            print(Maplist[i][k], end='')
-        print()
-    break
+game = True
 
-print("1. 아래으로 이동")
-print("2. 위로으로 이동")
-print("3. 오른쪽으로 이동")
-print("4. 왼쪽으로 이동")
-print("5. 게임을 종료합니다")
-number = int(input("숫자를 입력해주세요 : "))
-
+#움직임 출력
 def move():
-    global userX, userY
+    global userX, userY, game
     if(number == 1):
         nx=userX+1
         ny=userY
         if(nx > -1 and nx < Mapsize):
-            if (Maplist[nx][ny] == '⬜'):
+            if Maplist[nx][ny] == '💠':
+                print("Success!")
+                game = False
+            elif Maplist[nx][ny] == '🔺':
+                print("Boooooomb!!!")
+                game = False
+            elif Maplist[nx][ny] == '⬜':
                 Maplist[nx][ny] = '🔳'
                 Maplist[userX][userY] = '⬜'
-        for nx in range(Mapsize):
-            for ny in range(Mapsize):
-                print(Maplist[nx][ny], end='')
-            print()
+                userX=nx
+                userY=ny
+        else:
+            print("\n범위를 벗어났습니다\n")
     if(number == 2):
         nx=userX-1
         ny=userY
         if(nx > -1 and nx < Mapsize):
-            if (Maplist[nx][ny] == '⬜'):
+            if Maplist[nx][ny] == '💠':
+                print("Success!")
+                game = False
+            elif Maplist[nx][ny] == '🔺':
+                print("Boooooomb!!!")
+                game = False
+            elif Maplist[nx][ny] == '⬜':
                 Maplist[nx][ny] = '🔳'
                 Maplist[userX][userY] = '⬜'
-        for nx in range(Mapsize):
-            for ny in range(Mapsize):
-                print(Maplist[nx][ny], end='')
-            print()
+                userX=nx
+                userY=ny
+        else:
+            print("\n범위를 벗어났습니다\n")  
     if(number == 3):
         nx=userX
         ny=userY+1
-        if(ny > -1 and ny < Mapsize):
-            if (Maplist[nx][ny] == '⬜'):
+        if(nx > -1 and nx < Mapsize):
+            if Maplist[nx][ny] == '💠':
+                print("Success!")
+                game = False
+            elif Maplist[nx][ny] == '🔺':
+                print("Boooooomb!!!")
+                game = False
+            elif Maplist[nx][ny] == '⬜':
                 Maplist[nx][ny] = '🔳'
                 Maplist[userX][userY] = '⬜'
-        for nx in range(Mapsize):
-            for ny in range(Mapsize):
-                print(Maplist[nx][ny], end='')
-            print()
+                userX=nx
+                userY=ny
+        else:
+            print("\n범위를 벗어났습니다\n") 
     if(number == 4):
         nx=userX
         ny=userY-1
-        if(ny > -1 and ny < Mapsize):
-            if (Maplist[nx][ny] == '⬜'):
+        if(nx > -1 and nx < Mapsize):
+            if Maplist[nx][ny] == '💠':
+                print("Success!")
+                game = False
+            elif Maplist[nx][ny] == '🔺':
+                print("Boooooomb!!!")
+                game = False
+            elif Maplist[nx][ny] == '⬜':
                 Maplist[nx][ny] = '🔳'
                 Maplist[userX][userY] = '⬜'
-        for nx in range(Mapsize):
-            for ny in range(Mapsize):
-                print(Maplist[nx][ny], end='')
-            print()
+                userX=nx
+                userY=ny
+        else:
+            print("\n범위를 벗어났습니다\n")
     if(number == 5):
         print('Game over')
+        game = False
 
-move()
+while game:
+    for i in range(Mapsize):
+        for k in range(Mapsize):
+            print(Maplist[i][k], end='')
+        print()
+    print("1. 아래으로 이동")
+    print("2. 위로으로 이동")
+    print("3. 오른쪽으로 이동")
+    print("4. 왼쪽으로 이동")
+    print("5. 게임을 종료합니다")
+    number = int(input("숫자를 입력해주세요 : "))
+    move()

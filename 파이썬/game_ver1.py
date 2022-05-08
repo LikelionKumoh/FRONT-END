@@ -1,8 +1,4 @@
 import random
-from re import X
-import time
-from tkinter import Y
-from tracemalloc import stop
 
 Mapsize = int(input("맵 크기를 입력해주세요 : "))
 Bombsize= int(input("폭탄 갯수를 입력해주세요 : "))
