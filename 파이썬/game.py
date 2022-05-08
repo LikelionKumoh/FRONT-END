@@ -110,6 +110,7 @@ def move():
         print('Game over')
         game = False
 
+#게임 진행
 while game:
     for i in range(Mapsize):
         for k in range(Mapsize):

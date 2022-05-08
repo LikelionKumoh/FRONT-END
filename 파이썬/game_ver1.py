@@ -33,7 +33,7 @@ def Mapmake(ms,bs):
 Mapmake(Mapsize,Bombsize)
 print('========== 게임을 시작합니다 ==========')
 
-#출력
+#게임 출력
 while True:
     for i in range(Mapsize):
         for k in range(Mapsize):
