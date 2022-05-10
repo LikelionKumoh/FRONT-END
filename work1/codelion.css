@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Bigbox{
+    height: 200px;
+}
+
+.Top{
+    margin: 10px;
+    height: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgTop{
+    width: 20%;
+    display: flex;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgTop > img{
+    width: 100px;
+    height: 100px;
+}
+
+.MenuBox{
+    width: 80%;
+}
+
+.MenuTop{
+    display: flex;
+    justify-content: flex-end;
+    height: 20%;
+    margin-right: 500px;
+}
+
+p{
+    margin-right: 10px;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+
+.Search{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 100%;
+}
+
+
+.searchBar{
+    margin: 5px;
+    border: 5px solid orange;
+    width: 60%;
+    height: 30%;
+}
+
+.button{
+    margin: 5px;
+    background-color: orange;
+    border: 5px solid orange;
+    align-items: center;
+    width: 8%;
+    height: 30%;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.biglinebox{
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+}
+
+.linebox{
+    margin-top: 5px;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 60px;
+}
+
+.doublelinebox{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 300px;
+    align-items: center;
+    line-height: 60px;
+}
+
+.Bottom{
+    display: flex;
+    flex-direction: row; 
+    margin: 15px 300px 0 300px;
+}
+
+.bt_onebox{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.img_box{
+    width: 100%;
+    height:30%;
+    margin: 0 10px 10px 0;
+}
+
+.img_box > img{
+    width: 100%;
+    height: 100%;
+}
+
+.boot_box{
+    width: 100%;
+    height: 30%;
+    margin: 0 10px 60px 0;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.name_box{
+    display: flex;
+    background-color: rgb(250, 211, 139);
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px 10px 0;
+}
+
+.boot_line{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.b_box{
+    background-color: rgb(250, 245, 238);
+    width: 32%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+}
+
+.brown{
+    color: brown;
+}
+
+.green{
+    color: green;
+}
+
+.br2{
+    color: rgb(100, 50, 8);
+}
+
+.purple{
+    color: blueviolet;
+}
+
+.gr2{
+    color: rgb(0, 128, 90);
+}
+
+.track_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    margin: 0 10px 10px 0;
+}
+
+.track_line{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.t_box{
+    border-right: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.t_img{
+    margin: 20px 0 100px 0;
+}
+
+h4{
+    margin: 10px;
+}
+.bt_twobox{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.login_view{
+    background-color: rgb(247, 246, 246);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+}
+
+.login_box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.idpw-box{
+    background-color: rgb(250, 243, 235);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 10px 10px;
+}
+
+._box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.w_box{
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    margin-left: 20px;
+}
+
+.login{
+    background-color: orange;
+    margin: 20px 10px 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+
+h2{
+    color: white;
+}
+.sign_box{
+    margin: 10px;
+    height: 100%;
+}
+.sign{
+    background-color: orange;
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sbc_img{
+    width: 80%;
+    height: 30%;
+    align-items: center;
+}
+
+.sbc_img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.logobox{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.lolinebox{
+    display: flex;
+    flex-direction: column;
+}
+
+.logline{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.log{
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.log > img{
+    width: 100%;
+    height: 100%;
+}
