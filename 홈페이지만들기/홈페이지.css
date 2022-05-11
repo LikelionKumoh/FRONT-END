@@ -1,0 +1,341 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.BigBox {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  min-width: 784px;
+  max-width: 800px;
+}
+
+.Top {
+  height: 16%;
+  margin: 10%;
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Img {
+  width: 20%;
+}
+
+.MenuInput {
+  width: 80%;
+}
+
+.Menu {
+  justify-content: flex-end;
+  display: flex;
+}
+
+p {
+  margin-right: 10px;
+  font-size: 13px;
+  color: rgb(109, 109, 109);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+img {
+  width: 70%;
+}
+
+.Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 50%;
+}
+
+.InputButton {
+  width: 75%;
+  height: 100%;
+  display: inline-block;
+  display: flex;
+}
+
+.InputBar {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  background: #ffffff;
+  display: flex;
+}
+
+.inputBarlnput {
+  width: 100%;
+}
+
+.Button {
+  width: 25%;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  background-color: #112874;
+  color: white;
+}
+
+.Mid {
+  display: flex;
+  height: 5%;
+  border-bottom: 2px solid #112874;
+  border-top: 2px solid #112874;
+}
+
+h1 {
+  margin-right: 10px;
+  margin-top: 13px;
+  font-size: 13px;
+  color: rgb(56, 54, 54);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.BottomWrapper {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.bottom {
+  width: 100%;
+  height: 80%;
+}
+
+.MENULOGIN {
+  width: 100%;
+  display: contents;
+}
+
+.BOTTOM1 {
+  width: 70%;
+}
+
+.BOTTOM2 {
+  width: 30%;
+  float: right;
+}
+
+.banner {
+  height: 30%;
+  width: 100%;
+  background-color: black;
+}
+
+.LImg {
+  display: flex;
+  margin-right: 60px;
+  margin-left:50px;
+}
+
+.PageMenu {
+  width: 100%;
+}
+
+.PageMenuTitle {
+  height: 5%;
+  background-color: #112874;
+}
+
+.title1 {
+  margin-right: 10px;
+  margin-top: 13px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.PageMenuMenu {
+  height: 20%;
+}
+
+.TrackMenu {
+  width: 100%;
+}
+
+.TrackMenuTitle {
+  height: 5%;
+  background-color: #112874;
+}
+
+.title2 {
+  margin-right: 10px;
+  margin-top: 13px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TrackMenuMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.DesignMenu {
+  width: 100%;
+  height: 60%;
+  margin-right: 3px;
+  margin-top: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.Design {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.DImg {
+  width: 100%;
+  margin: 10px;
+}
+
+.InterfaceMenu {
+  width: 100%;
+  height: 60%;
+  margin-right: 3px;
+  margin-top: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.interface {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.IImg {
+  width: 100%;
+  margin: 10px;
+}
+
+.FrontEndMenu {
+  width: 100%;
+  height: 60%;
+  margin-right: 3px;
+  margin-top: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.FrontEnd {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.FImg {
+  width: 100%;
+  margin: 10px;
+}
+
+.PageMenuMenu1 {
+  display: flex;
+  width: 100%;
+}
+
+.PageMenuMenu2 {
+  display: flex;
+  width: 100%;
+}
+
+.PageMenuMenu3 {
+  display: flex;
+  width: 100%;
+}
+
+.style {
+  background-color: #dadfee;
+  width: 33%;
+  display: flex;
+  padding: 10px;
+  margin: 3px;
+}
+
+.LoginPage {
+  /* width: 30%; */
+}
+
+.LoginPart {
+  background-color: rgb(244, 244, 244);
+
+}
+
+.Login {
+  height: 20%;
+  width: 100%;
+}
+
+.IDandPW {
+  height: 50%;
+}
+
+.abc {
+  display: flex;
+}
+
+.abc>p {
+  width: 40px;
+}
+
+.SignUpButton {
+  width: 90%;
+  height: 30px;
+  background-color: #112874;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+.SBCLogo {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.title3 {
+  color: white;
+  background-color: #112874;
+}
+
+.logoTopRow,
+.logoBottomRow {
+  display: flex;
+}
+
+.logoTopRowLeft,
+.logoTopRowRight,
+.logoBottomRowLeft,
+.logoBottomRowRight {
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
