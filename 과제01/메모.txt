@@ -1,0 +1,9 @@
+flexbox
+display: flex
+flex-direction: column
+flex-wrap: nowrap
+justify-content: center //메인축 방향정렬
+align-items: stretch;
+flex-basis: 100px; item 기본 크기
+flex-grow: 1;
+flex-shrink: 0;
