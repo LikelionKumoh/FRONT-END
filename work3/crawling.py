@@ -31,8 +31,8 @@ message = EmailMessage()
 message.set_content('해당 그룹에 대한 정보입니다.')
 
 message["Subject"] = "크롤링해서 메일 보내기[임수연]"
-message["From"] = "ipinger1717@gmail.com"
-message["To"] = "kit@likelion.org"
+message["From"] = "#####@gmail.com"
+message["To"] = "#####@likelion.org"
 
 with open('news.txt', 'rb') as f:
   data = f.read()
@@ -47,6 +47,6 @@ def sendEmail(addr):
         print("유효한 이메일 주소가 아닙니다.")
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("ipinger1717@gmail.com", "exotkfkdgkwk!")
+smtp.login("#####@gmail.com", "#####")
 smtp.send_message(message)
 smtp.quit()
