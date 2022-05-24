@@ -2,7 +2,6 @@ from cgitb import html
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-from email.message import EmailMessage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
@@ -29,7 +28,7 @@ rank = 1
 results = soup.select(
     '#old_content > table > tbody > tr > td.title > div > a')
 
-search_rank_file = open("rankresult.txt", "a")
+search_rank_file = open("rankresult.txt", "w")
 
 print(datetime.today().strftime("%Y년 %m월 %d일의 실시간 영화 랭킹입니다.\n"))
 
@@ -40,19 +39,21 @@ for result in results:
     if rank > 20:
         break
 
+search_rank_file.close()
+
 # 로그인
 s = smtplib.SMTP('smtp.gmail.com', 587)
 
-# TLS 보안 시작
+# TLS
 s.starttls()
 
-s.login('####@gmail.com', '######')
+s.login('bsm980310@gmail.com', 'edxkioubiaxilqcc')
 
 # 메일 기본 정보 설정
 msg = MIMEMultipart()
 msg["Subject"] = f"크롤링해서 메일보내기[백승민]"
-msg["From"] = "####@gmail.com"
-msg["To"] = "kit@likelion.org"
+msg["From"] = "bsm980310@gmail.com"
+msg["To"] = "bsm3925@likelion.org"
 
 # 메일 내용 쓰기
 content = "오늘의 영화 랭킹입니다!"
