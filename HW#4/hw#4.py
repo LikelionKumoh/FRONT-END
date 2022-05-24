@@ -47,13 +47,13 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # TLS
 s.starttls()
 
-s.login('bsm980310@gmail.com', 'edxkioubiaxilqcc')
+s.login('######@gmail.com', '######')
 
 # 메일 기본 정보 설정
 msg = MIMEMultipart()
-msg["Subject"] = f"크롤링해서 메일보내기[백승민]"
-msg["From"] = "bsm980310@gmail.com"
-msg["To"] = "bsm3925@likelion.org"
+msg["Subject"] = "크롤링해서 메일보내기[백승민]"
+msg["From"] = "######"
+msg["To"] = "######"
 
 # 메일 내용 쓰기
 content = "오늘의 영화 랭킹입니다!"
