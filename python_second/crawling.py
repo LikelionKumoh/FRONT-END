@@ -16,7 +16,7 @@ def sendEmail(addr):
 
 
 headers = {
-    'User-Agent': '###################################################################################'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36'
 }
 
 url = 'https://movie.naver.com/movie/bi/fi/prize.naver?code=19&rnd=58'
@@ -59,13 +59,15 @@ message["Subject"] = "크롤링해서 메일보내기[이태헌]"
 message["From"] = "forever296@likelion.org"
 message["To"] = "kit@likelion.org"
 
+
 with open("search_reward.txt", "rb") as text:
     text_file = text.read()
 
-message.add_attachment(text_file, maintype='image', subtype='text')
+message.add_attachment(text_file, maintype='image',
+                       subtype='text', filename='백상예술대상_수상작')
 
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("forever296@likelion.org", "##########")
+smtp.login("forever296@likelion.org", "95075798")
 sendEmail("forever296@likelion.org")
 smtp.quit()
