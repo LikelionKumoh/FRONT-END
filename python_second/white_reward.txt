@@ -1,0 +1,7588 @@
+
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+
+	
+	
+	
+	
+		<link rel="shortcut icon" href="https://ssl.pstatic.net/static/m/movie/icons/naver_movie_favicon.ico" type="image/x-icon">
+			
+
+
+
+<title>백상예술대상 : 네이버 영화</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	<link rel="stylesheet" type="text/css" href="/common/css/movie_tablet.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/common.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/layout.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/old_default.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/old_layout.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/old_common.css?20220504124626">	
+
+		<link rel="stylesheet" type="text/css" href="/common/css/main_end.css?20220504124626">
+
+		<link rel="stylesheet" type="text/css" href="/common/css/db_end.css?20220504124626">
+
+	
+
+	
+
+
+
+
+
+<script type="text/javascript" src="/common/js/default-min.js"></script>
+
+<!-- jindo2와 충돌로 jindo1을 주석처리 (영화태그 부분에서 사용하지만 jindo2로 변경)
+
+<script type="text/javascript" src="/common/js/jindo.all.js"></script>
+
+ -->
+
+<script type="text/javascript" src="/common/js/jindo2.js"></script>
+
+<script type="text/javascript" src="/common/js/jindo2.component.js"></script>
+
+<script type="text/javascript" src="/common/js/jindo/component/1.0.2/jindo.Component.js"></script>
+
+<script type="text/javascript" src="/common/js/jindo/component/1.0.2/jindo.UIComponent.js"></script>
+
+
+
+
+
+</head>
+
+
+
+<body >
+
+
+
+<div id="wrap" class="fix3">
+
+	
+
+	
+
+		
+
+	<!-- GNB -->
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+function delayed_submit(object) {
+
+	if (navigator.userAgent.indexOf('MSIE') == -1) {
+
+		var b = c = new Date();
+
+      	while ((b.getTime() - c.getTime()) < 100) {
+
+			b = new Date();
+
+      	}
+
+		//window.setTimeout(function() {object.submit(); console.log('s');}, 300);
+
+	}
+
+}
+
+var gnb_service = 'movie';
+
+var gnb_logout = 'http://movie.naver.com/movie/bi/fi/prize.naver%3Fcode%3D19%26rnd%3D58';
+
+var gnb_template = "gnb_utf8"; /* https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn */
+
+var gnb_brightness=3;
+
+var gnb_response = true;
+
+</script>
+
+
+
+
+
+	
+
+	
+
+
+
+<a name="gnb_top"></a>
+
+    <!-- skip navigation -->
+
+    <div id="u_skip">
+
+            <a href="#header" onclick="document.getElementById('header').tabIndex=-1;document.getElementById('header').focus();return false;"><span>메인 메뉴로 바로가기</span></a>
+
+            <a href="#content" id="gnb_goContent" onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false;"><span>본문으로 바로가기</span></a>
+
+    </div>
+
+    <!-- //skip navigation -->
+
+	<!-- GNB -->
+
+	<div class="gnb_container">
+
+		<div class="gnb_content">
+
+			<div class="gnb_box">
+
+			 	<div class="gnb_wrap">
+
+					<div id="gnb" onload="javascript:getGNB();">
+
+				   	 	<script type="text/javascript" charset="utf-8" src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn"></script>
+
+					</div>
+
+				</div>
+
+				<!-- 검색창 -->
+
+				<form id="jSearchForm" action="/movie/search/result.naver" method="get" style="margin:0;display:none;">
+
+					<input type="text" name="query" maxlength="100" title="영화검색" />
+
+					<input type="hidden" name="section" value="all"/>
+
+				</form>
+
+				<fieldset id="jSearchArea" class="srch_area">
+
+					<legend><span class="blind">영화검색 영역</span></legend>
+
+					<div class="srch_field_on _view">
+
+						<span class="ipt_srch">
+
+							<label for="ipt_tx_srch" id="search_placeholder">영화검색</label>
+
+							<input type="text" id="ipt_tx_srch" class="ipt_tx_srch" name="query" maxlength="100" accesskey="s" style="ime-mode:active;" autocomplete="off" />
+
+							<span class="align"></span>
+
+							<span class="auto_tx"><a href="#" title="자동완성 펼치기"><img src="https://ssl.pstatic.net/static/movie/2012/06/srch_arrow_down.gif" width="7" height="4" title="자동완성 펼치기" alt="자동완성 펼치기" /></a></span>
+
+						</span>
+
+						<button type="submit" title="검색" class="btn_srch" onclick="clickcr(this, 'GNB.search', '', '', event); delayed_submit(this);"><span class="blind">검색</span></button>
+
+						 <!-- 자동 완성 영역임 #autocomplate_template-->
+
+					</div>
+
+				</fieldset>
+
+				<!-- //검색창 -->
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- //GNB -->
+
+	<!-- nClicks -->
+
+	
+
+		
+
+		
+
+		
+
+		
+
+				
+
+		
+
+		
+
+		
+
+		
+
+			<script type="text/javascript">var nsc = "movie.festival";</script>
+
+			<script type="text/javascript" src="/common/js/clickcr.js"></script>
+
+			
+
+		
+
+		
+
+		
+
+		
+
+		
+
+	
+
+	<!-- // nClicks -->	
+
+	<!-- //GNB -->
+
+
+
+	<!-- LNB -->
+
+	
+
+
+
+	<!-- header -->
+	<div id="header">
+		<h1 class="svc_name">
+			<a href="http://www.naver.com/" title="naver로 바로가기" class="ci_logo" id="lnb_gonaver" onclick="clickcr(this, 'LNB.naver', '', '', event);"><img src="https://ssl.pstatic.net/static/movie/2013/07/logo_ci.png" width="62" height="13" alt="NAVER" /></a>
+			<a href="/" title="영화서비스홈으로 바로가기" class="svc_logo" onclick="clickcr(this, 'LNB.movie', '', '', event);"><img src="https://ssl.pstatic.net/static/movie/2012/06/logo_svc.png" width="34" height="19" alt="영화" /></a>
+		</h1>
+		<div id="scrollbar" class="scrollbar scrollbar-noscript">
+			<div class="scrollbar-box">
+				<div class="scrollbar-content">
+					<div class="in_scroll">
+						<ul class="navi">
+						<li>
+							<a href="/" title="영화홈" class="menu01" onclick="clickcr(this, 'LNB.home', '', '', event);"><strong>영화홈</strong></a>
+						</li>
+						<li>
+							<a href="/movie/running/current.naver" title="상영작·예정작" class="menu02_on" onclick="clickcr(this, 'LNB.movies', '', '', event);"><strong>상영작·예정작</strong></a>
+							<ul class="navi_sub" style="display:block">
+							<li><a href="/movie/running/current.naver" title="현재 상영영화" class="sub2_1" onclick="clickcr(this, 'LNB.now', '', '', event);"><em>현재 상영영화</em></a></li>
+							<li><a href="/movie/running/premovie.naver" title="개봉 예정영화" class="sub2_2" onclick="clickcr(this, 'LNB.soon', '', '', event);"><em>개봉 예정영화</em></a></li>
+							<li><a href="/movie/running/movieclip.naver" title="예고편" class="sub2_4" onclick="clickcr(this, 'LNB.tailer', '', '', event);"><em>예고편</em></a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="/movie/sdb/rank/rmovie.naver" title="영화랭킹" class="menu03" onclick="clickcr(this, 'LNB.db', '', '', event);"><strong>영화랭킹</strong></a>
+							<ul class="navi_sub" style="display:none">
+							<li><a href="/movie/sdb/rank/rmovie.naver" title="랭킹" class="sub3_1" onclick="clickcr(this, 'LNB.rank', '', '', event);"><em>랭킹</em></a></li>
+							<li><a href="/movie/sdb/browsing/bmovie_nation.naver" title="디렉토리" class="sub3_2" onclick="clickcr(this, 'LNB.dir', '', '', event);"><em>디렉토리</em></a></li>
+							</ul>
+						</li>
+
+
+						<li>
+							<a href="/movie/point/af/list.naver" title="평점" class="menu07" onclick="clickcr(this, 'LNB.comm', '', '', event);"><strong>평점</strong></a>
+                            <ul class="navi_sub" style="display:none">
+                                <li><a href="/movie/point/af/list.naver" title="네티즌 평점" class="sub7_1" onclick="clickcr(this, 'LNB.rating', '', '', event);"><em>네티즌 평점</em></a></li>
+                                <li><a href="/movie/board/review/list.naver" title="네티즌 리뷰" class="sub7_2" onclick="clickcr(this, 'LNB.review', '', '', event);"><em>네티즌 리뷰</em></a></li>
+                                
+                            </ul>
+						</li>
+						<li>
+							<a href="http://serieson.naver.com/movie/home.nhn" title="다운로드" class="menu08" onclick="clickcr(this, 'LNB.download', '', '', event);" target="_blank"><strong>다운로드</strong></a>
+						</li>
+						<li class="nav_indi">
+						        <a href="http://tv.naver.com/indiecinema" title="인디극장 UP" target="_blank"><strong>인디극장 UP</strong></a><!-- N=a:LNB.indie -->
+						</li>						
+						</ul>
+						<!-- div class="view_mode">
+							<a href="#" title="" class="normal_on"><em>1단 보기</em></a>
+							<a href="#" title="" class="wide_off"><em>2단 보기</em></a>
+						</div -->
+					</div>
+				</div>
+			</div>
+			<div class="scrollbar-v">
+				<div class="scrollbar-button-up"></div>
+				<div class="scrollbar-track">
+					<div class="scrollbar-thumb"></div>
+				</div>
+				<div class="scrollbar-button-down"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+
+	<!-- //LNB -->
+
+
+
+	<!-- container -->
+
+	<div id="container">
+
+		<!-- content -->
+
+		<div id="content">
+
+			<div class="article">
+
+				<div class="old_layout ">
+
+
+
+				<!-- Content Header -->
+
+				
+
+					
+
+				<div id="cheader" class="type_2 cheader_type_2">
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<script src="/service/dbendpage/topmenu/flashObject.js"></script>
+
+
+
+
+
+<meta property="og:title" content="백상예술대상"/>
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:url" content="https://movie.naver.com/movie/bi/fi/prize.naver?code=19&amp;rnd=58"/>
+
+<meta property="og:description" content="네이버 영화 : 영화제 정보"/>
+
+<meta property="og:article:thumbnailUrl" content="http://imgmovie.naver.com/today/naverme/naverme_profile.jpg"/>
+
+<meta property="og:article:author" content="네이버 영화"/>
+
+<meta property="og:article:author:url" content="https://movie.naver.com"/>
+
+	<!-- 대표 이미지 선정 -->
+
+	
+
+		
+
+			
+
+				
+
+					
+
+						
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+					
+
+				
+
+			
+
+			
+
+		
+
+		
+
+
+
+	
+
+		<meta property="og:image" content="https://ssl.pstatic.net/imgmovie/mdi/fit178/19/poster_58_0.jpg"/>
+
+	
+
+	
+
+
+
+
+
+<table cellspacing="0" role="presentation">
+
+	<tr>
+
+		<td class="poster">
+
+			<!--포스터 | 이미지 맥시멈 178x200-->
+
+			
+
+				
+
+				
+
+					<a href="#" onClick="javascript:clickcr(this,'ifo.img','','',event); iwopen('https://ssl.pstatic.net/imgmovie/mdi/fit178/19/poster_58_0.jpg','',''); return false;"><img src="https://ssl.pstatic.net/imgmovie/mdi/fit178/19/poster_58_0.jpg" alt="영화제포스터"></a>
+
+				
+
+				
+
+			
+
+			<!--//포스터-->
+
+		</td>
+
+		<td class="info">
+
+			<!--타이틀+배너-->
+
+			<div class="title_point">
+
+				<div class="title">
+
+					<h3 class="type1">백상예술대상</h3>
+
+					<p class="sub_title">BaekSang Arts Awards</p>					
+
+				</div>
+
+				<!-- 배너이슈있을때 활성화하여 추가해주세요
+
+				<a href="#" class="banner"> banner<br>
+
+				125x40 </a>-->
+
+			</div>
+
+			<!--//타이틀+배너-->
+
+			<!--기본정보-->
+
+			<dl class="summary">
+
+				
+
+				
+
+					<dt><strong class="tit_nation">개최국</strong></dt>
+
+					<dd>한국 서울 </dd>
+
+				
+
+				
+
+					<dt><strong class="tit_year">시작년도</strong></dt>
+
+					<dd>1965년</dd>
+
+				
+
+				
+
+					<dt><strong class="tit_festival">행사시기</strong></dt>
+
+					<dd>2022.05.06</dd>
+
+				
+
+				
+
+					<dt><strong class="tit_char">성격</strong></dt>
+
+					<dd>시상식</dd>
+
+				
+
+				
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+						
+
+						
+
+					
+
+				
+
+				
+
+					<dt><strong class="tit_formal_site">공식사이트</strong></dt>
+
+					<dd class="site-area">
+
+						<em class="category">[국내] </em><a href="http://www.baeksangawards.co.kr/" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">http://www.baeksangawards.co.kr/</a>
+
+								<span class="vr"> | </span>
+
+								<a href="https://tv.naver.com/jtbc.baeksangawards" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">https://tv.naver.com/jtbc.baeksangawards</a>
+
+								<span class="vr"> | </span>
+
+								<a href="https://twitter.com/jtbc_awards" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">https://twitter.com/jtbc_awards</a>
+
+								<span class="vr"> | </span>
+
+								<a href="https://www.facebook.com/BaeksangAwards" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">https://www.facebook.com/BaeksangAwards</a>
+
+								<span class="vr"> | </span>
+
+								<a href="https://www.instagram.com/baeksang.official" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">https://www.instagram.com/baeksang.official</a>
+
+								<span class="vr"> | </span>
+
+								<a href="https://www.tiktok.com/@baeksang.official" onClick="clickcr(this,'ifo.homepage','','',event);" class="url" target="_blank">https://www.tiktok.com/@baeksang.official</a>
+
+						
+
+					</dd>
+
+				
+
+			</dl>
+
+			
+
+				<p class="comment">1965년부터 한국 대중문화 예술의 발전과 예술인의 사기진작을 위해 제정한 시상식<p>
+
+			
+
+			<!--//기본정보-->
+
+		</td>
+
+	</tr>
+
+</table>
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+				</div>
+
+				
+
+				
+
+				
+
+				
+
+				<!-- //Content Header -->	
+
+			
+
+				<!-- Content Body -->
+
+				<div id="cbody" class="type_2 cbody_type_2">
+
+					<!--콘텐트 본문-->
+
+					<div id="old_content" >
+
+						
+
+						<div class="tab_type_1 mb_9">
+
+	<ul>
+
+		<!--활성화된 탭의 이미지는 _on.gif 입니다-->
+
+		<li><a href="basic.naver?code=19" onClick="clickcr(this,'mnu.main','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/tab_festival_1_off.gif" alt="기본정보" width="104" height="28"></a></li>
+
+		<li><a href="prize.naver?code=19" onClick="clickcr(this,'mnu.award','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/tab_festival_2_on.gif" alt="수상정보" width="104" height="28"></a></li>
+
+		<li><a href="photoView.naver?code=19" onClick="clickcr(this,'mnu.photo','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/tab_festival_3_off.gif" alt="포토" width="104" height="28"></a></li>
+
+	</ul>
+
+</div>
+
+<h4 class="mt_35 mb_18 pl_9"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/h4_pastyear.gif" alt="개요" width="80" height="15"></h4>
+
+<div class="tab_type_14">
+
+	<ul>
+
+		<!--활성화된 탭에 on 클래스가 붙습니다 | 활성화된 탭의 이미지는 _on.gif 입니다-->
+
+		
+
+			<li class="on"><a href="prize.naver?code=19" onClick="clickcr(this,'ast.num','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/db_text_48_on.gif" alt="회차별역대수상정보" width="94" height="11"></a></li>
+
+			<li><a href="prize.naver?code=19&ins=1" onClick="clickcr(this,'ast.item','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/db_end/db_text_49_off.gif" alt="부문별역대수상정보" width="94" height="11"></a></li>
+
+		
+
+		
+
+	</ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="box_type_2 mt_10 mb_25">
+
+	
+
+		<h5>
+
+			<span id="roundTitle">
+
+				
+
+					
+
+					
+
+						2022년 제58회
+
+					
+
+				
+
+			</span>
+
+		</h5>
+
+		<p>다른회차보기&nbsp;
+
+			<select name="select" id="select" class="select_type_2" onChange="javascript:clickcr(this,'num.more','',this.selectedIndex+1,event);document.location.href='prize.naver?code=19&rnd='+this.value;">
+
+				
+
+					
+
+					
+
+					
+
+					<option value="1" >1965년 제1회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="2" >1966년 제2회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="3" >1967년 제3회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="4" >1968년 제4회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="5" >1969년 제5회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="6" >1970년 제6회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="7" >1971년 제7회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="8" >1972년 제8회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="9" >1973년 제9회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="10" >1974년 제10회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="11" >1975년 제11회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="12" >1976년 제12회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="13" >1977년 제13회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="14" >1978년 제14회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="15" >1979년 제15회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="16" >1980년 제16회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="17" >1981년 제17회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="18" >1982년 제18회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="19" >1983년 제19회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="20" >1984년 제20회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="21" >1985년 제21회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="22" >1986년 제22회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="23" >1987년 제23회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="24" >1988년 제24회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="25" >1989년 제25회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="26" >1990년 제26회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="27" >1991년 제27회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="28" >1992년 제28회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="29" >1993년 제29회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="30" >1994년 제30회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="31" >1995년 제31회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="32" >1996년 제32회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="33" >1997년 제33회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="34" >1998년 제34회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="35" >1999년 제35회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="36" >2000년 제36회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="37" >2001년 제37회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="38" >2002년 제38회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="39" >2003년 제39회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="40" >2004년 제40회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="41" >2005년 제41회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="42" >2006년 제42회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="43" >2007년 제43회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="44" >2008년 제44회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="45" >2009년 제45회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="46" >2010년 제46회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="47" >2011년 제47회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="48" >2012년 제48회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="49" >2013년 제49회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="50" >2014년 제50회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="51" >2015년 제51회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="52" >2016년 제52회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="53" >2017년 제53회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="54" >2018년 제54회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="55" >2019년 제55회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="56" >2020년 제56회</option>
+
+				
+
+					
+
+					
+
+					
+
+					<option value="57" >2021년 제57회</option>
+
+				
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+					<option value="58" selected>2022년 제58회</option>
+
+				
+
+			</select>
+
+		</p>
+
+	
+
+	
+
+</div>
+
+
+
+<div class="box_story_6">
+
+	
+
+	<h6>영화제 개요</h6>
+
+	<table cellspacing="0" class="table_type_8 mb_23">
+
+		<caption class="blind">영화제 개요 목록</caption>
+
+		<col style="width:53px">
+
+		<col>
+
+		
+
+		<tr>
+
+			<th scope="row">일시</th>
+
+			<td>2022.05.06 ~ </td>
+
+		</tr>
+
+		
+
+		
+
+		
+
+		<tr>
+
+			<th scope="row">TV중계</th>
+
+			<td><a href="http://" onClick="clickcr(this,'num.summary','','',event);" target="_blank">JTBC, JTBC2, JTBC4</a> </td>
+
+		</tr>
+
+		
+
+		
+
+		
+
+	</table>
+
+	<p></p>
+
+	
+
+	
+
+	<h6 class="mt_42">수상정보</h6>
+
+	<table cellspacing="0" class="table_type_9">
+
+		<caption class="blind">수상정보목록</caption>
+
+		<col style="width:111px">
+
+		<col>
+
+		
+
+			
+
+			
+
+			<tr class="first-child">
+
+				<th scope="row"><a href="prize.naver?code=19&ins=1" onClick="clickcr(this,'num.list','','',event);">영화 대상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" class="top_5">모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=581" onClick="clickcr(this,'num.list','','',event);" class="actor">류승완</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=3" onClick="clickcr(this,'num.list','','',event);">영화 작품상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" class="top_5">모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=581" onClick="clickcr(this,'num.list','','',event);" class="actor">류승완</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=199860" onClick="clickcr(this,'num.list','','',event);" >기적</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=408280" onClick="clickcr(this,'num.list','','',event);" class="actor">이장훈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=198967" onClick="clickcr(this,'num.list','','',event);" >미싱타는 여자들</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=55781" onClick="clickcr(this,'num.list','','',event);" class="actor">이혁래 외 1명</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=196809" onClick="clickcr(this,'num.list','','',event);" >연애 빠진 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=387100" onClick="clickcr(this,'num.list','','',event);" class="actor">정가영</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" >킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=56655" onClick="clickcr(this,'num.list','','',event);" class="actor">변성현</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=4" onClick="clickcr(this,'num.list','','',event);">영화 감독상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" class="top_5">킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=56655" onClick="clickcr(this,'num.list','','',event);" class="actor">변성현</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=581" onClick="clickcr(this,'num.list','','',event);" class="actor">류승완</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=190991" onClick="clickcr(this,'num.list','','',event);" >이상한 나라의 수학자</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=108775" onClick="clickcr(this,'num.list','','',event);" class="actor">박동훈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=199860" onClick="clickcr(this,'num.list','','',event);" >기적</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=408280" onClick="clickcr(this,'num.list','','',event);" class="actor">이장훈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=196809" onClick="clickcr(this,'num.list','','',event);" >연애 빠진 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=387100" onClick="clickcr(this,'num.list','','',event);" class="actor">정가영</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=5" onClick="clickcr(this,'num.list','','',event);">영화 시나리오상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=196809" onClick="clickcr(this,'num.list','','',event);" class="top_5">연애 빠진 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=387100" onClick="clickcr(this,'num.list','','',event);" class="actor">정가영 외 1명</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=194666" onClick="clickcr(this,'num.list','','',event);" >십개월의 미래</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=82971" onClick="clickcr(this,'num.list','','',event);" class="actor">남궁선</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=581" onClick="clickcr(this,'num.list','','',event);" class="actor">류승완 외 1명</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" >킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=56655" onClick="clickcr(this,'num.list','','',event);" class="actor">변성현 외 1명</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=190991" onClick="clickcr(this,'num.list','','',event);" >이상한 나라의 수학자</a>
+
+			
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이용재</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=6" onClick="clickcr(this,'num.list','','',event);">영화 예술상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" class="top_5">모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=39766" onClick="clickcr(this,'num.list','','',event);" class="actor">최영환</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=194204" onClick="clickcr(this,'num.list','','',event);" >해적: 도깨비 깃발</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=40335" onClick="clickcr(this,'num.list','','',event);" class="actor">강종익 외 1명</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" >킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=149156" onClick="clickcr(this,'num.list','','',event);" class="actor">조형래</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=186233" onClick="clickcr(this,'num.list','','',event);" >특송</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=152346" onClick="clickcr(this,'num.list','','',event);" class="actor">최성겸</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" >킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=109509" onClick="clickcr(this,'num.list','','',event);" class="actor">한아름</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=7" onClick="clickcr(this,'num.list','','',event);">영화 신인감독상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185264" onClick="clickcr(this,'num.list','','',event);" class="top_5">장르만 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=4309" onClick="clickcr(this,'num.list','','',event);" class="actor">조은지</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=194205" onClick="clickcr(this,'num.list','','',event);" >발신제한</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=88133" onClick="clickcr(this,'num.list','','',event);" class="actor">김창주</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=194666" onClick="clickcr(this,'num.list','','',event);" >십개월의 미래</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=82971" onClick="clickcr(this,'num.list','','',event);" class="actor">남궁선</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185614" onClick="clickcr(this,'num.list','','',event);" >인질</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=108721" onClick="clickcr(this,'num.list','','',event);" class="actor">필감성</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=201863" onClick="clickcr(this,'num.list','','',event);" >혼자 사는 사람들</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=436821" onClick="clickcr(this,'num.list','','',event);" class="actor">홍성은</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=8" onClick="clickcr(this,'num.list','','',event);">영화 남자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" class="top_5">킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=1226" onClick="clickcr(this,'num.list','','',event);" class="actor">설경구</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=46666" onClick="clickcr(this,'num.list','','',event);" class="actor">김윤석</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" >킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=8017" onClick="clickcr(this,'num.list','','',event);" class="actor">이선균</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=183862" onClick="clickcr(this,'num.list','','',event);" >뜨거운 피</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=49422" onClick="clickcr(this,'num.list','','',event);" class="actor">정우</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=190991" onClick="clickcr(this,'num.list','','',event);" >이상한 나라의 수학자</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=2013" onClick="clickcr(this,'num.list','','',event);" class="actor">최민식</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=9" onClick="clickcr(this,'num.list','','',event);">영화 여자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=206608" onClick="clickcr(this,'num.list','','',event);" class="top_5">당신얼굴 앞에서</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=5091" onClick="clickcr(this,'num.list','','',event);" class="actor">이혜영</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=193327" onClick="clickcr(this,'num.list','','',event);" >빛나는 순간</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=1686" onClick="clickcr(this,'num.list','','',event);" class="actor">고두심</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=186233" onClick="clickcr(this,'num.list','','',event);" >특송</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=343173" onClick="clickcr(this,'num.list','','',event);" class="actor">박소담</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=199860" onClick="clickcr(this,'num.list','','',event);" >기적</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=42416" onClick="clickcr(this,'num.list','','',event);" class="actor">임윤아</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=196809" onClick="clickcr(this,'num.list','','',event);" >연애 빠진 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=408823" onClick="clickcr(this,'num.list','','',event);" class="actor">전종서</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=10" onClick="clickcr(this,'num.list','','',event);">영화 남자조연상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=177366" onClick="clickcr(this,'num.list','','',event);" class="top_5">킹메이커</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=155696" onClick="clickcr(this,'num.list','','',event);" class="actor">조우진</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=167112" onClick="clickcr(this,'num.list','','',event);" class="actor">구교환</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=182362" onClick="clickcr(this,'num.list','','',event);" >유체이탈자</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=1795" onClick="clickcr(this,'num.list','','',event);" class="actor">박용우</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185264" onClick="clickcr(this,'num.list','','',event);" >장르만 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=295855" onClick="clickcr(this,'num.list','','',event);" class="actor">성유빈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=4275" onClick="clickcr(this,'num.list','','',event);" class="actor">허준호</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=11" onClick="clickcr(this,'num.list','','',event);">영화 여자조연상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=199860" onClick="clickcr(this,'num.list','','',event);" class="top_5">기적</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=338126" onClick="clickcr(this,'num.list','','',event);" class="actor">이수경</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=117969" onClick="clickcr(this,'num.list','','',event);" class="actor">김소진</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=192150" onClick="clickcr(this,'num.list','','',event);" >모가디슈</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=75860" onClick="clickcr(this,'num.list','','',event);" class="actor">김재화</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=198497" onClick="clickcr(this,'num.list','','',event);" >최선의 삶</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=403799" onClick="clickcr(this,'num.list','','',event);" class="actor">심달기</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185264" onClick="clickcr(this,'num.list','','',event);" >장르만 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=145340" onClick="clickcr(this,'num.list','','',event);" class="actor">오나라</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=12" onClick="clickcr(this,'num.list','','',event);">영화 남자신인연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=183862" onClick="clickcr(this,'num.list','','',event);" class="top_5">뜨거운 피</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=361981" onClick="clickcr(this,'num.list','','',event);" class="actor">이홍내</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=190991" onClick="clickcr(this,'num.list','','',event);" >이상한 나라의 수학자</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=387343" onClick="clickcr(this,'num.list','','',event);" class="actor">김동휘</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185614" onClick="clickcr(this,'num.list','','',event);" >인질</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=368165" onClick="clickcr(this,'num.list','','',event);" class="actor">김재범</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=185264" onClick="clickcr(this,'num.list','','',event);" >장르만 로맨스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=372084" onClick="clickcr(this,'num.list','','',event);" class="actor">무진성</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=203716" onClick="clickcr(this,'num.list','','',event);" >낫아웃</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=393359" onClick="clickcr(this,'num.list','','',event);" class="actor">정재광</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=13" onClick="clickcr(this,'num.list','','',event);">영화 여자신인연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=195691" onClick="clickcr(this,'num.list','','',event);" class="top_5">어른들은 몰라요</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=254674" onClick="clickcr(this,'num.list','','',event);" class="actor">이유미</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=201863" onClick="clickcr(this,'num.list','','',event);" >혼자 사는 사람들</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=356242" onClick="clickcr(this,'num.list','','',event);" class="actor">공승연</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=198497" onClick="clickcr(this,'num.list','','',event);" >최선의 삶</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=297490" onClick="clickcr(this,'num.list','','',event);" class="actor">방민아</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=203100" onClick="clickcr(this,'num.list','','',event);" >모럴센스</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=159110" onClick="clickcr(this,'num.list','','',event);" class="actor">서현</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+				<a href="/movie/bi/mi/basic.naver?code=194666" onClick="clickcr(this,'num.list','','',event);" >십개월의 미래</a>
+
+			
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=435221" onClick="clickcr(this,'num.list','','',event);" class="actor">최성은</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=23" onClick="clickcr(this,'num.list','','',event);">TV 대상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">Netflix</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=24" onClick="clickcr(this,'num.list','','',event);">TV 작품상(드라마)</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">D.P.</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">Netflix</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >스물다섯 스물하나</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">tvN</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">Netflix</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">MBC</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이렇게 된 이상 청와대로 간다</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">wavve</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=25" onClick="clickcr(this,'num.list','','',event);">TV 작품상(예능)</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">스트릿 우먼 파이터</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">Mnet</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >골 때리는 그녀들</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">SBS</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >솔로지옥</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">Netflix</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >유 퀴즈 온 더 블럭</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">tvN</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >환승연애</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">TVING</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=26" onClick="clickcr(this,'num.list','','',event);">TV 작품상(교양)</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">다큐인사이트 국가대표</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">KBS 1TV</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >위대한 수업, 그레이트 마인즈</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">EBS1</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >꼬리에 꼬리를 무는 이야기</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">SBS</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >요즘 육아 금쪽 같은 내새끼</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">채널A</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >KBS 대기획 키스 더 유니버스</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">KBS 1TV</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=27" onClick="clickcr(this,'num.list','','',event);">TV 연출상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=72202" onClick="clickcr(this,'num.list','','',event);" class="actor">황동혁</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이렇게 된 이상 청와대로 간다</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=51657" onClick="clickcr(this,'num.list','','',event);" class="actor">윤성호</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >마인</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=79002" onClick="clickcr(this,'num.list','','',event);" class="actor">이나정</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=160310" onClick="clickcr(this,'num.list','','',event);" class="actor">정지인</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >D.P.</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=105222" onClick="clickcr(this,'num.list','','',event);" class="actor">한준희</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=28" onClick="clickcr(this,'num.list','','',event);">TV 극본상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">소년심판</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">김민석</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이렇게 된 이상 청와대로 간다</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=51657" onClick="clickcr(this,'num.list','','',event);" class="actor">윤성호 외 4명</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >마인</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=341074" onClick="clickcr(this,'num.list','','',event);" class="actor">백미경</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >그 해 우리는</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이나은</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=72202" onClick="clickcr(this,'num.list','','',event);" class="actor">황동혁</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=29" onClick="clickcr(this,'num.list','','',event);">TV 예술상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=68525" onClick="clickcr(this,'num.list','','',event);" class="actor">정재일</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >복면가왕·싱어게인2·풍류대장·슈퍼밴드2</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">권태은</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">김화영</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >유미의 세포들</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">엄영식 외 1명</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=113731" onClick="clickcr(this,'num.list','','',event);" class="actor">채경선</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=30" onClick="clickcr(this,'num.list','','',event);">TV 남자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=174675" onClick="clickcr(this,'num.list','','',event);" class="actor">이준호</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >악의 마음을 읽는 자들</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=73436" onClick="clickcr(this,'num.list','','',event);" class="actor">김남길</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=1915" onClick="clickcr(this,'num.list','','',event);" class="actor">이정재</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >트레이서</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=301425" onClick="clickcr(this,'num.list','','',event);" class="actor">임시완</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >D.P.</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=339000" onClick="clickcr(this,'num.list','','',event);" class="actor">정해인</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=31" onClick="clickcr(this,'num.list','','',event);">TV 여자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">스물다섯 스물하나</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=362970" onClick="clickcr(this,'num.list','','',event);" class="actor">김태리</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >소년심판</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=1761" onClick="clickcr(this,'num.list','','',event);" class="actor">김혜수</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >연모</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=52734" onClick="clickcr(this,'num.list','','',event);" class="actor">박은빈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=38301" onClick="clickcr(this,'num.list','','',event);" class="actor">이세영</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >마이네임</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">한소희</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=32" onClick="clickcr(this,'num.list','','',event);">TV 남자조연상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">D.P.</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=87990" onClick="clickcr(this,'num.list','','',event);" class="actor">조현철</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=5346" onClick="clickcr(this,'num.list','','',event);" class="actor">이덕화</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이렇게 된 이상 청와대로 간다</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=314520" onClick="clickcr(this,'num.list','','',event);" class="actor">이학주</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >마인</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=334087" onClick="clickcr(this,'num.list','','',event);" class="actor">이현욱</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=317982" onClick="clickcr(this,'num.list','','',event);" class="actor">허성태</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=33" onClick="clickcr(this,'num.list','','',event);">TV 여자조연상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">지옥</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=74397" onClick="clickcr(this,'num.list','','',event);" class="actor">김신록</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >서른, 아홉</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=238263" onClick="clickcr(this,'num.list','','',event);" class="actor">강말금</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=43812" onClick="clickcr(this,'num.list','','',event);" class="actor">김주령</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >마인</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=378054" onClick="clickcr(this,'num.list','','',event);" class="actor">옥자연</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >옷소매 붉은 끝동</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=55560" onClick="clickcr(this,'num.list','','',event);" class="actor">장혜진</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=34" onClick="clickcr(this,'num.list','','',event);">TV 남자신인연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">D.P.</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=167112" onClick="clickcr(this,'num.list','','',event);" class="actor">구교환</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >D.P.</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=441041" onClick="clickcr(this,'num.list','','',event);" class="actor">신승호</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >지금 우리 학교는</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=413228" onClick="clickcr(this,'num.list','','',event);" class="actor">유인수</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >스물다섯 스물하나</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">최현욱</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >라켓소년단</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=340366" onClick="clickcr(this,'num.list','','',event);" class="actor">탕준상</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=35" onClick="clickcr(this,'num.list','','',event);">TV 여자신인연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">구경이</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=414796" onClick="clickcr(this,'num.list','','',event);" class="actor">김혜준</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >소년심판</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=426331" onClick="clickcr(this,'num.list','','',event);" class="actor">이연</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >지금 우리 학교는</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=254674" onClick="clickcr(this,'num.list','','',event);" class="actor">이유미</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오징어 게임</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=358509" onClick="clickcr(this,'num.list','','',event);" class="actor">정호연</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >지금 우리 학교는</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=425340" onClick="clickcr(this,'num.list','','',event);" class="actor">조이현</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=37" onClick="clickcr(this,'num.list','','',event);">TV 남자예능상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=65273" onClick="clickcr(this,'num.list','','',event);" class="actor">이용진</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=51633" onClick="clickcr(this,'num.list','','',event);" class="actor">김구라</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=65263" onClick="clickcr(this,'num.list','','',event);" class="actor">문세윤</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=51650" onClick="clickcr(this,'num.list','','',event);" class="actor">조세호</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=341733" onClick="clickcr(this,'num.list','','',event);" class="actor">키</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=38" onClick="clickcr(this,'num.list','','',event);">TV 여자예능상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=368551" onClick="clickcr(this,'num.list','','',event);" class="actor">주현영</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=7215" onClick="clickcr(this,'num.list','','',event);" class="actor">송은이</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이미주</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이은지</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" ></a>
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=7226" onClick="clickcr(this,'num.list','','',event);" class="actor">홍진경</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=46" onClick="clickcr(this,'num.list','','',event);">백상연극상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">터키행진곡</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">극단 작당모의</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >만 마디를 대신하는 말 한마디</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">극단 하땅세</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >로드킬 인 더 씨어터</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">국립극단</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >추락 II</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">프로젝트그룹 빠-다밥</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >홍평국전</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">907(구공칠)</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=47" onClick="clickcr(this,'num.list','','',event);">젊은연극상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">이것은 어쩌면 실패담, 원래 제목은 인투디언노운</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">김미란</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >오버더떼창: 문전본풀이</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">판소리아지트 놀애박스</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >콜타임</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이오진</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이홍도 자서전(나의 극작 인생)</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">이홍도</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >집집: 하우스 소나타</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">한현주</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=48" onClick="clickcr(this,'num.list','','',event);">연극 남자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">붉은 낙엽</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=326223" onClick="clickcr(this,'num.list','','',event);" class="actor">박완규</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >태양</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=156657" onClick="clickcr(this,'num.list','','',event);" class="actor">권정훈</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >타자기 치는 남자</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=74070" onClick="clickcr(this,'num.list','','',event);" class="actor">김동현</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >좋은 괴물</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=61473" onClick="clickcr(this,'num.list','','',event);" class="actor">윤상화</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >엔젤스 인 아메리카</a>
+
+			
+
+			- 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=52414" onClick="clickcr(this,'num.list','','',event);" class="actor">정경호</a>
+
+			
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=49" onClick="clickcr(this,'num.list','','',event);">연극 여자최우수연기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="top_5">홍평국전</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">황순미</a>
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이장</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">강지은</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >누룩의 시간</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">박은경</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >이것은 어쩌면 실패담, 원래 제목은 인투디언노운</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">박지영</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" >청년부에 미친 혜인이</a>
+
+			
+
+			- 
+
+			
+
+			
+
+				<a style="text-decoration:none;" onClick="clickcr(this,'num.list','','',event);" class="actor">신윤지</a>
+
+			
+
+			
+
+			<br>
+
+							
+
+			
+
+		
+
+			
+
+			</td></tr>
+
+			<tr>
+
+				<th scope="row"><a href="prize.naver?code=19&ins=57" onClick="clickcr(this,'num.list','','',event);">틱톡 인기상</a></th>
+
+				<td>
+
+				
+
+			
+
+			
+
+
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=174675" onClick="clickcr(this,'num.list','','',event);" class="actor">이준호</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+							
+
+			
+
+		
+
+				
+
+			
+
+			
+
+			
+
+			 
+
+			
+
+				<a href="/movie/bi/pi/basic.naver?code=362970" onClick="clickcr(this,'num.list','','',event);" class="actor">김태리</a>
+
+			
+
+			
+
+			 수상
+
+			<br>
+
+			</td></tr>				
+
+			
+
+		
+
+	</table>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+</div>
+
+						
+
+			
+
+				
+
+					
+
+					
+
+					
+
+					
+
+						
+
+					
+
+					
+
+					
+
+					
+
+				
+
+						<!--원하는 영화정보가 없나요?-->
+
+						<div class="goto_manager mt_50">
+
+							<p>영화정보의 수정이나 신규생성이 필요한 경우 고객센터 DB제보로 문의해 주세요. &nbsp;<a href="https://help.naver.com/support/alias/contents2/movie/movie_1.naver" target="_blank" onClick="clickcr(this,'etc.board','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/common/btn_dbreportmail.gif" alt="고객센터 DB제보 문의하기" width="156" height="25"></a></p>
+
+						</div>
+
+						<!--//원하는 영화정보가 없나요?-->
+
+						<div class="go_top pr_8">
+
+							<a href="#gnb_top" title="top" onClick="clickcr(this,'etc.top','','',event);"><img src="https://ssl.pstatic.net/imgmovie/2007/img/common/btn_top.gif" alt="TOP" width="30" height="11"></a>
+
+						</div>
+
+					</div>
+
+					<!--//콘텐트 본문-->
+
+				
+
+					<!--우측 사이드-->
+
+					<div id="assistant">
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+.cntBox{
+
+    margin:8px 0px 8x 0px;
+
+        width:198px;
+
+        overflow:hidden;
+
+        _width:200px;
+
+        height:270px;            
+
+        position:relative;
+
+}
+
+
+
+.box_type_1 {margin-bottom:8px;} /* 100920 */
+
+</style>
+
+
+
+<!-- 우측 메뉴 -->
+
+
+
+	 
+
+
+
+
+
+
+
+	<!-- 영화 인기검색어 -->
+
+	<div class="box_type_1 mb_8">
+
+	<h3><img src="https://ssl.pstatic.net/imgmovie/2007/img/super_db/tlt_r_best_movie.gif" alt="영화 인기검색어" width="75" height="11"></h3>
+
+		<ul class="r_ranking">
+
+			
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking01">
+
+				
+
+				
+
+				<a href="/movie/bi/mi/basic.naver?code=182016" onclick="clickcr(this,'pop.list','182016','1',event);" class='b' title="닥터 스트레인지: 대혼돈의 멀티버스"><span class="blind">1위</span>닥터 스트레인지: ..</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt="순위 변동 없음"
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking02">
+
+				
+
+				
+
+				<a href="/movie/bi/mi/basic.naver?code=164122" onclick="clickcr(this,'pop.list','164122','2',event);"  title="신비한 동물들과 덤블도어의 비밀"><span class="blind">2위</span>신비한 동물들과 덤..</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt="순위 변동 없음"
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking03">
+
+				
+
+				
+
+				<a href="/movie/bi/mi/basic.naver?code=192608" onclick="clickcr(this,'pop.list','192608','3',event);"  title="범죄도시2"><span class="blind">3위</span>범죄도시2</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt="순위 변동 없음"
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking04">
+
+				
+
+				
+
+				<a href="/movie/bi/mi/basic.naver?code=190374" onclick="clickcr(this,'pop.list','190374','4',event);"  title="앵커"><span class="blind">4위</span>앵커</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt="순위 변동 없음"
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking05">
+
+				
+
+				
+
+				<a href="/movie/bi/mi/basic.naver?code=159812" onclick="clickcr(this,'pop.list','159812','5',event);"  title="니 부모 얼굴이 보고 싶다"><span class="blind">5위</span>니 부모 얼굴이 보..</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt="순위 변동 없음"
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+		</ul>
+
+        <!--[D] 더보기 위치 이동 -->
+
+        <a href="/movie/sdb/rank/rmovie.naver" onclick="clickcr(this,'pop.more','','',event);" class="more">더보기</a>
+
+        <p class="term">2022.05.11</p>
+
+	</div>
+
+  
+
+
+
+	 
+
+
+
+
+
+
+
+	<!-- 영화인 인기검색어 -->
+
+	<div class="box_type_1 mb_8">
+
+	<h3><img src="https://ssl.pstatic.net/imgmovie/2007/img/super_db/tlt_r_best_star.gif" alt="영화인 인기검색어" width="85" height="11"></h3>
+
+		<ul class="r_ranking">
+
+			
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking01">
+
+				
+
+				
+
+				<a href="/movie/bi/pi/basic.naver?st=1&code=1404" onclick="clickcr(this,'peo.list','1404','1',event);" class='b' title="샘 레이미"><span class="blind">1위</span>샘 레이미</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt=""
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking02">
+
+				
+
+				
+
+				<a href="/movie/bi/pi/basic.naver?st=1&code=296467" onclick="clickcr(this,'peo.list','296467','2',event);"  title="엘리자베스 올슨"><span class="blind">2위</span>엘리자베스 올슨</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt=""
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking03">
+
+				
+
+				
+
+				<a href="/movie/bi/pi/basic.naver?st=1&code=11979" onclick="clickcr(this,'peo.list','11979','3',event);"  title="레이첼 맥아담스"><span class="blind">3위</span>레이첼 맥아담스</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_up_1.gif"
+
+					 alt=""
+
+					 width="7" height="10">1</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking04">
+
+				
+
+				
+
+				<a href="/movie/bi/pi/basic.naver?st=1&code=11608" onclick="clickcr(this,'peo.list','11608','4',event);"  title="김지훈"><span class="blind">4위</span>김지훈</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_down_1.gif"
+
+					 alt=""
+
+					 width="7" height="10">1</span>
+
+				
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				<li class="ranking05">
+
+				
+
+				
+
+				<a href="/movie/bi/pi/basic.naver?st=1&code=120197" onclick="clickcr(this,'peo.list','120197','5',event);"  title="베네딕트 컴버배치"><span class="blind">5위</span>베네딕트 컴버배치</a>
+
+				<span class="rank">
+
+				
+
+				
+
+				
+
+				
+
+					
+
+				
+
+				
+
+
+
+				
+
+					
+
+					
+
+					
+
+					
+
+				
+
+
+
+				<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/icon_na_1.gif"
+
+					 alt=""
+
+					 width="7" height="10">0</span>
+
+				
+
+			
+
+		</ul>
+
+		<a href="/movie/sdb/rank/rpeople.naver" onclick="clickcr(this,'peo.more','','',event);" class="more">더보기</a>
+
+		<p class="term">2022.05.11</p>
+
+	</div>
+
+  
+
+
+
+	 
+
+
+
+
+
+
+
+<!--티켓예매순-->
+
+<div class="box_type_1 mb_8">
+
+	<h3><img src="https://ssl.pstatic.net/imgmovie/2007/img/running/tlt_r_reservation.gif" alt="티켓예매순" width="51" height="11"></h3>
+
+	<div id="reserveRanking0" style="display:block">
+
+	<ul class="r_ranking">
+
+		
+
+			
+
+				
+
+					
+
+						<li class="ranking01"><a href="/movie/bi/mi/basic.naver?code=190695" onclick="clickcr(this,'tck.list','190695','1',event);" class="b" title="모비우스"><span class="blind">1위</span>모비우스</a><span class="ratio check">58.44%</span></li>
+
+					
+
+					
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+					
+
+						<li class="ranking02"><a href="/movie/bi/mi/basic.naver?code=183862" onclick="clickcr(this,'tck.list','183862','2',event);" title="뜨거운 피"><span class="blind">2위</span>뜨거운 피</a> <span class="ratio">11.69%</span></li>
+
+					
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+					
+
+						<li class="ranking03"><a href="/movie/bi/mi/basic.naver?code=207921" onclick="clickcr(this,'tck.list','207921','3',event);" title="스펜서"><span class="blind">3위</span>스펜서</a> <span class="ratio">5.19%</span></li>
+
+					
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+					
+
+						<li class="ranking04"><a href="/movie/bi/mi/basic.naver?code=213733" onclick="clickcr(this,'tck.list','213733','4',event);" title="극장판 주술회전 0"><span class="blind">4위</span>극장판 주술회전 0</a> <span class="ratio">4.55%</span></li>
+
+					
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+					
+
+						<li class="ranking05"><a href="/movie/bi/mi/basic.naver?code=190991" onclick="clickcr(this,'tck.list','190991','5',event);" title="이상한 나라의 수학자"><span class="blind">5위</span>이상한 나라의 수학자</a> <span class="ratio">3.9%</span></li>
+
+					
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+	</ul>
+
+		<a id="ticketRankLink" href="/movie/sdb/rank/rreserve.naver" onclick="clickcr(this,'tck.more','','',event);" class="more">더보기</a>
+
+	<div class="term_1"><img src="https://ssl.pstatic.net/imgmovie/2007/img/common/txt_source_yes24_02.gif" alt="출처:YES24" width="54" height="12"><div class="date">2022.05.12</div></div>
+
+	</div>
+
+</div>
+
+<!--//티켓예매순-->
+
+  
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+<!--박스오피스-->
+
+<div class="box_type_1 mb_8">
+
+	<h3><img src="https://ssl.pstatic.net/imgmovie/2007/img/running/tlt_r_boxoffice.gif" alt="박스오피스" width="51" height="11"></h3>
+
+	<ul class="r_ranking box">
+
+	
+
+			<li class="ranking01"><a href="/movie/bi/mi/basic.naver?code=182016" onclick="clickcr(this,'box.list','182016','1',event);" class="b" title="닥터 스트레인지: 대혼돈의 멀티버스"><span class="blind">1위</span>닥터 스트레인지: 대혼돈의 멀티버스</a> <span class="ratio  check""><em>1716487</em> 명</span></li>
+
+	
+
+			<li class="ranking02"><a href="/movie/bi/mi/basic.naver?code=196047" onclick="clickcr(this,'box.list','196047','2',event);" title="배드 가이즈"><span class="blind">2위</span>배드 가이즈</a> <span class="ratio "><em>110315</em> 명</span></li>
+
+	
+
+			<li class="ranking03"><a href="/movie/bi/mi/basic.naver?code=214637" onclick="clickcr(this,'box.list','214637','3',event);" title="극장판 엉덩이 탐정: 수플레 섬의 비밀"><span class="blind">3위</span>극장판 엉덩이 탐정: 수플레 섬의 비밀</a> <span class="ratio "><em>50302</em> 명</span></li>
+
+	
+
+			<li class="ranking04"><a href="/movie/bi/mi/basic.naver?code=159812" onclick="clickcr(this,'box.list','159812','4',event);" title="니 부모 얼굴이 보고 싶다"><span class="blind">4위</span>니 부모 얼굴이 보고 싶다</a> <span class="ratio "><em>42788</em> 명</span></li>
+
+	
+
+			<li class="ranking05"><a href="/movie/bi/mi/basic.naver?code=164122" onclick="clickcr(this,'box.list','164122','5',event);" title="신비한 동물들과 덤블도어의 비밀"><span class="blind">5위</span>신비한 동물들과 덤블도어의 비밀</a> <span class="ratio "><em>28969</em> 명</span></li>
+
+	
+
+	</ul>
+
+	<a href="/movie/sdb/rank/rboxoffice.naver" onclick="clickcr(this,'box.more','','',event);" class="more">더보기</a>
+
+	<div class="term_1"><span class="cnt">주말관객 기준</span><div class="date">20220506-20220508</div></div>
+
+</div>
+
+<!--//박스오피스-->
+
+  
+
+
+
+
+
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+					</div>
+
+					<img src="https://ssl.pstatic.net/imgmovie/2007/img/common/blank.gif" alt="" class="clear">
+
+				</div>
+
+				<!-- //Content Body -->
+
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- //content -->
+
+	</div>
+
+	<!-- //container -->
+
+
+
+
+
+	<!-- Footer -->
+
+	
+
+
+
+
+
+
+<!-- footer -->
+<div id="footer">
+	<div class="in_footer">
+		<div class="foot_con">
+			<ul>
+				<li class="first"><a href="http://www.naver.com/rules/service.html" target="_blank" onclick="clickcr(this, 'fot.agreement', '', '', event);">이용약관</a></li>
+				<li><a href="http://www.naver.com/rules/privacy.html" target="_blank"  onclick="clickcr(this, 'fot.privacy', '', '', event);"><strong>개인정보처리방침</strong></a></li>
+				<li><a href="http://www.naver.com/rules/disclaimer.html" target="_blank" onclick="clickcr(this, 'fot.disclaimer', '', '', event);">책임의 한계와 법적고지</a></li>
+				<li><a href="https://help.naver.com/support/service/main.nhn?serviceNo=800" target="_blank" onclick="clickcr(this, 'fot.help', '', '', event);">영화 고객센터</a></li>
+			</ul>
+			<p class="info">본 콘텐츠의 저작권은 저작권자 또는 제공처에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
+			<p class="info">
+				사업자등록번호 : 220-81-62517<span>통신판매업 신고번호</span> : 경기성남 제 2006 - 692호<span>대표이사 : 최수연</span><span><a href="http://www.ftc.go.kr/info/bizinfo/communicationList.jsp" onclick="clickcr(this, 'fot.bizinfo', '', '', event);">사업자등록정보 확인</a></span><br>
+				주소 : 경기도 성남시 분당구 정자일로 95, NAVER 1784, 13561 <span>대표전화 : 1588-3820</span>
+			</p>
+			<address>
+				<a href="https://www.navercorp.com" target="_blank" class="logo" onclick="clickcr(this, 'fot.nhn', '', '', event);"><img src="https://ssl.pstatic.net/static/movie/2013/07/logo_naver.png" width="63" height="11" alt="NAVER"></a>
+				<em>Copyright &copy;</em>
+				<a href="https://www.navercorp.com" target="_blank" onclick="clickcr(this, 'fot.corp', '', '', event);">NAVER Corp.</a>
+				<span>All Rights Reserved.</span>
+			</address>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+if (false) {
+
+	var alertType = "NONE";
+
+	var koreanTitle = "";
+
+	var movieCode = "0";
+
+	var userReserveCount = "0";
+
+	var todayDatetime = "20220512203703";
+
+	var endDatetimeAfterTwoDays = "00000000000000";
+
+	
+
+	
+
+	if (movieCode > 0) {
+
+		openWriteActualPointAlert (alertType, koreanTitle, movieCode, userReserveCount, todayDatetime, endDatetimeAfterTwoDays);
+
+	}
+
+}
+
+
+
+function openWriteActualPointAlert (alertType, koreanTitle, movieCode, count, today, endDate) {
+
+	if (alertType == "ONE" || alertType == "MORE") {
+
+		setCookieLastUserReserveDate(today, endDate);
+
+		if (confirm("관람하신 " + koreanTitle + "에\n평점 등록 시 네이버페이 마일리지 500원 적립!\n지금 평점쓰기 메뉴로 이동하시겠습니까?")) {
+
+			top.location.href = "http://movie.naver.com/movie/bi/mi/point.naver?code=" + movieCode;
+
+		}
+
+	}
+
+	
+
+}
+
+
+
+function setCookieLastUserReserveDate(today, endDate) {
+
+	var cookieForNotOpenActualPointPopup = jindo.$Cookie();
+
+	
+
+	
+
+	cookieForNotOpenActualPointPopup.remove("lastUserReserveDatetime");
+
+	cookieForNotOpenActualPointPopup.remove("lastUserReserveCheckDatetime");
+
+	
+
+	cookieForNotOpenActualPointPopup.set("lastUserReserveDatetime", endDate, 9999, "movie.naver.com");
+
+	cookieForNotOpenActualPointPopup.set("lastUserReserveCheckDatetime", today, 9999, "movie.naver.com");
+
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/common/js/lcslog.js"></script>
+
+<script type="text/javascript" src="/common/js/jindo/component/1.0.2/jindo.Component.min.js"></script>
+
+<script type="text/javascript" src="/common/js/vendor/jindo.WatchInput.js" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/common/js/lib/Core.js?20220504124626" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/common/js/lib/LNB.js?20220504124626" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/common/js/lib/Search.js?20220504124626" charset="UTF-8"></script>
+
+
+
+
+	
+	
+		
+	
+
+
+
+
+	
+	
+
+<script type="text/javascript">
+
+    // nhn.movie.Search가 jindo 기반이어서 javascript로 전환함
+    if (document.addEventListener) {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.removeEventListener("DOMContentLoaded", arguments.callee, false);
+            loadFooter();
+        }, false);
+    }
+// Internet Explorer
+    else if (document.attachEvent) {
+        // onreadystatechange 는 모든 브라우저가 반환
+        document.attachEvent("onreadystatechange", function () {
+            if (document.readyState == "complete" || document.readyState == 'loaded') {
+                document.detachEvent("onreadystatechange", arguments.callee);
+                loadFooter();
+            }
+        });
+    }
+
+    function loadFooter() {
+        var goNaver = document.getElementById("lnb_gonaver");
+        goNaver.addEventListener("focus", focusonNaverIcon, false);
+
+        // LNB - 사용처를 못 찾음
+//   	var oLNB = new nhn.movie.LNB();
+
+        // 상단 검색영역
+        var oSearch = new nhn.movie.Search({
+            area : "jSearchArea",
+            autosearch : "https://auto-movie.naver.com/ac?q_enc=UTF-8&st=1&r_lt=1&n_ext=1&t_koreng=1&r_format=json&r_enc=utf-8&r_unicode=0&r_escape=1&q=",
+            movelink : "/movie/bi/mi/basic.naver?code=",
+            peoplelink : "/movie/bi/pi/basic.naver?code="
+        });
+
+        getGNB();
+    }
+
+    function focusonNaverIcon(event) {
+        event.preventDefault();	// jindo.$Event.CANCEL_DEFAULT 와 동일한 기능으로 추측됨
+        document.getElementById('ipt_tx_srch').value= "";
+        document.getElementById('search_placeholder').style = "display:inline;";
+        if (document.getElementById('jAutoComplate') != undefined && document.getElementById('jAutoComplate') !== null) {
+            document.getElementById('jAutoComplate').style = "display:none;"
+        }
+    }
+
+    
+    window.addEventListener('pageshow', function(event) { lcs_do(); });
+
+    document.addEventListener('click', function (event) {
+        var welSource = event.srcElement;	// jindo.$Element(oEvent.element);
+        if (!document.getElementById("gnb").contains(welSource)) {
+            gnbAllLayerClose();
+        }
+    });
+</script>
+
+	
+
+	<!-- //Footer -->
+
+	
+
+	
+
+	
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+//IE계열 브라우저에서 주소에 anchor 가 붙어있을 경우 타이틀바에 anchor 가 같이 노출되는 문제 수정을 위한 코드
+
+var onLoad = window.onload;
+
+window.onload = function() {
+
+	document.title = '백상예술대상 : 네이버 영화';
+
+	if (typeof onLoad == 'function') {
+
+		onLoad();
+
+	}
+
+}
+
+</script>
+
+</body>
+
+</html>	
