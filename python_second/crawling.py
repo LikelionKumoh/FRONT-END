@@ -68,6 +68,6 @@ message.add_attachment(text_file, maintype='image',
 
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("###############", "##########")
-sendEmail("###############")
+smtp.login("##############", "##########")
+sendEmail("#############")
 smtp.quit()
