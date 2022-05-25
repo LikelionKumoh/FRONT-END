@@ -16,7 +16,7 @@ def sendEmail(addr):
 
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36'
+    'User-Agent': '######################################################'
 }
 
 url = 'https://movie.naver.com/movie/bi/fi/prize.naver?code=19&rnd=58'
@@ -68,6 +68,6 @@ message.add_attachment(text_file, maintype='image',
 
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("forever296@likelion.org", "95075798")
+smtp.login("forever296@likelion.org", "##########")
 sendEmail("forever296@likelion.org")
 smtp.quit()
