@@ -28,6 +28,8 @@ for result in kbo:
   text_file.write(str(rank)+ '위: '+ result.get_text().strip('\n')+ '\n')
   rank += 1
 
+text_file.close()
+
 #제목: 크롤링해서 메일 보내기[김동국]
 #보내는 분 = 지메일
 #받는 분 = kit@likelion.org
@@ -50,19 +52,19 @@ message = EmailMessage()
 message.set_content('본문: 크롤링해서 메일 보내기[김동국]')
 
 message["Subject"] = "크롤링해서 메일 보내기[김동국]"
-message['To'] = "#####@likelion.org"
-message['From'] = "#####@gmail.com"
+message['To'] = "######@likelion.org"
+message['From'] = "######@gmail.com"
 
 with open('kbo.txt', 'rb') as f:
   data = f.read()
 message.add_attachment(data, maintype='txt', subtype='txt', filename="kbo.txt")
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER,SMTP_PORT)
-smtp.login("#####@gmail.com","#####")
+smtp.login("######@gmail.com","######")
 smtp.send_message(message)
 
 
-sendEmail("#####@likelion.org")
+sendEmail("######@likelion.com")
 smtp.quit()
 
 html_file.close()
