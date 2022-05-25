@@ -56,8 +56,8 @@ message = EmailMessage()
 message.set_content("2022년 5월에 있었던 백상예술대상의 수상작들을 모두 모았습니다.")
 
 message["Subject"] = "크롤링해서 메일보내기[이태헌]"
-message["From"] = "forever296@likelion.org"
-message["To"] = "kit@likelion.org"
+message["From"] = "###############"
+message["To"] = "###############"
 
 
 with open("search_reward.txt", "rb") as text:
@@ -68,6 +68,6 @@ message.add_attachment(text_file, maintype='image',
 
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("forever296@likelion.org", "##########")
-sendEmail("forever296@likelion.org")
+smtp.login("###############", "##########")
+sendEmail("###############")
 smtp.quit()
