@@ -109,7 +109,7 @@ function isInclude(arr, menu) {
 
 let idx;
 idx = bookCafe_obj.findIndex(element => {return element.price === 2000});
-console.log(bookCafe_obj[idx].name);
+// console.log(bookCafe_obj[idx].name);
 
 
 //----------------------------------------------------------------------
@@ -117,8 +117,7 @@ console.log(bookCafe_obj[idx].name);
 // 과제 7번 
 // filter 함수로 _obj 북카페 메뉴 2700 인 것 분류하기 !
 
-let newFilter = [];
-newFilter = bookCafe_obj.filter(element => {return element.price === 2700});
+const newFilter = bookCafe_obj.filter(element => element.price === 2700);
 // console.log(newFilter);
 
 //----------------------------------------------------------------------
@@ -126,8 +125,9 @@ newFilter = bookCafe_obj.filter(element => {return element.price === 2700});
 // 과제 8번 
 // sort 함수로 _obj 북카페 메뉴 낮은 가격 기준으로 정렬하기 !  
 
-let sortedPrice = [];
-sortedPrice = bookCafe_obj.sort((a, b) => {return a.price - b.price;})
+let sortedPrice = [...bookCafe_obj];
+console.log(bookCafe_obj);
+sortedPrice.sort((a, b) => a.price - b.price);
 console.log(sortedPrice);
 
 //----------------------------------------------------------------------
@@ -135,8 +135,8 @@ console.log(sortedPrice);
 // 과제 9번
 // sort 함수로 _obj 북카페 메뉴 이름을 사전식으로 정렬하기 !
 
-let sortedNAme = [];
-sortedName = bookCafe_obj.sort((a, b) => {
+let sortedName = [...bookCafe_obj];
+sortedName = sortedName.sort((a, b) => {
 	let x = a.name.toLowerCase();
 	let y = b.name.toLowerCase();
 	if(x < y){return -1;}
