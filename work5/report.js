@@ -36,7 +36,7 @@ console.log(cnt);
 // : Math.random( )은 0.0~0.999...의 수를 램덤으로 하나 부여하는 함수 !
 // : Math.floor(  )은 (  )안에 값을 실수의 값을 넣으면 실수의 최대 정수를 반환하는 함수 !
 const arr = [];
-for(let i = 0; i < 10; i++){
+while(arr.length !== 10){
 	rnd = Math.floor(Math.random()*100);
 	if(!arr.includes(rnd)){
 		arr.push(rnd);
