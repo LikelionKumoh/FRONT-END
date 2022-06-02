@@ -1,5 +1,6 @@
 const numbers = [1,1,1,2,2,3,3,3,3,9,3,4,4,5,5,5,6,9,6,7,7,7,8,8,9,9]
 const newNumbers = [];
+let index = 0;
 
 // 과제 1번
 // numbers 배열을 기본 반복문 (for,while)을 통해 중복인 숫자를 제거하여 새로운 배열로 만들기 ! 
@@ -12,7 +13,8 @@ for(let i=0;i<numbers.length;i++){
 		}
 	}
 	if(flag){
-		newNumbers.push(numbers[i]);
+		newNumbers[index] = numbers[i];
+		index++;
 	}
 }
 // --------------------------------------------------------------------
@@ -60,15 +62,19 @@ console.log(newBookCafe_arr);
 
 // 과제 5번 
 // forEach 함수로 includes 함수 구현하기 ! ( 메뉴는 _arr 배열 내 아무거나 선택 가능 ! )
-bookCafe_arr.forEach((e) => {
-	if(e === "카페모카"){
-		console.log("true")
+function Includes(){
+	let flag = 0;
+	bookCafe_arr.forEach((e) => {
+		if(e === "카페모카"){
+			flag = 1;
+		}
+	})
+	if(flag == 1){
 		return true;
-	} else{
-		console.log("false");
+	} else if(flag == 0){
 		return false;
 	}
-})
+}
 //----------------------------------------------------------------------
 
 // 과제 6번 
@@ -79,7 +85,7 @@ console.log(bookCafe_obj[two].name)
 
 // 과제 7번 
 // filter 함수로 _obj 북카페 메뉴 2700 인 것 분류하기 !
-const over = bookCafe_obj.filter((e) => e.price >= 2700);
+const over = bookCafe_obj.filter((e) => e.price == 2700);
 //----------------------------------------------------------------------
 
 // 과제 8번 
