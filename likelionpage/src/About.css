@@ -1,0 +1,17 @@
+#AboutImg {
+  width: 30%;
+  margin: 0;
+}
+p {
+  font-weight: 600;
+  margin-left: 50px;
+}
+#AboutTitle {
+  margin-bottom: 100px;
+}
+#AboutContainer {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  padding: 30px;
+}
