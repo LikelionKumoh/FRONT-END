@@ -8,7 +8,7 @@ const Menubar = () => {
             <img src='/img/LIKELION_image.png' />
             <ul style={{
                     display:'flex', border:'2px solid #0B3B0B', borderLeft:'0px', borderRight:'0px', 
-                    justifyContent:'space-evenly', width:'60%', 
+                    justifyContent:'space-evenly', width:'60%', textDecoration:'none',
                     margin:'auto', paddingTop:'5px', paddingBottom:'5px'}}>
                 <li style={{listStyle: 'none'}}>
                     <NavLink to='/'>HOME</NavLink>
