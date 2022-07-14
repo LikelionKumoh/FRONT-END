@@ -4,7 +4,6 @@ import Home from './pages/home';
 import About from './pages/about';
 import Peoples from './pages/peoples';
 import Menubar from './pages/menubar';
-import People from './pages/people';
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />}/>
         <Route path="/people" element={<Peoples />} />
-          <Route path="people/:id" element={<People />} />
       </Route>
     </Routes>
   );
