@@ -1,6 +1,8 @@
 #AboutImg {
   width: 30%;
   margin: 0;
+  border: 0px solid;
+  border-radius: 30px;
 }
 p {
   font-weight: 600;
@@ -14,4 +16,6 @@ p {
   justify-content: center;
   background-color: beige;
   padding: 30px;
+  border: 0px solid;
+  border-radius: 30px;
 }
