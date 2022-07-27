@@ -25,7 +25,7 @@ const People = () => {
                             borderRadius:isActive?"30px":""
                         }
                     }}>
-                        <a>{depart.department}</a>
+                        <span>{depart.department}</span>
                         
                     </NavLink>
                 )}

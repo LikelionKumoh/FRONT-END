@@ -39,3 +39,9 @@ button {
 #buttonSection button:hover {
   background-color: yellow;
 }
+.selectionBtn {
+  background-color: yellow;
+}
+.nonClickBtn {
+  background-color: rgb(245, 190, 11);
+}
